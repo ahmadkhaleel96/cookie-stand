@@ -9,17 +9,17 @@
     <form id =newShopForm>
     <fieldset>
         <legend> New Shop Info</legend>
-        <label for="name"></label>
-        <input type="text" id="name" placeholder="name" required>
+        <label for="name"> name of the shop</label>
+        <input type="text" id="name" placeholder="Name of Shop" required>
         <br />
-        <label for="min costumer number" id="min" placeholder="min is lower"></label> 
-        <input type="number" id="min" required>
+        <label for="min costumer number" id="min">min number of costumers</label> 
+        <input type="number" id="min" placeholder="Min is lower! min="0" max="100" required>
         <br />
-        <label for="max"></label>
-        <input type="number" id="max" placeholder="max is higher" required>
+        <label for="max">max number of costumers</label>
+        <input type="number" id="max" placeholder="max is higher" min="0" max="1000" required>
          <br />
-         <label for="avgCoockei" placeholder="Enter expected average coockie sold per hour"></label>
-         <input type="number" id="avgCoockei" required> 
+         <label for="avgCoockei" >expected average coockies sold</label>
+         <input type="float" id="avgCoockei" placeholder="Enter expected average coockie sold per hour" required> 
          <br />
          <input type="submit" />      
     </fieldset>
