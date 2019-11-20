@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Pat store</title>
-    <!-- <link rel="stylesheet" href="CSS/reset.css"> -->
 </head>
-<body>
-    <header> wierd coockie Shop</header>
-    <form id =newShopForm>
-    <fieldset>
-        <legend> New Shop Info</legend>
-        <label for="name"> name of the shop</label>
-        <input type="text" id="name" placeholder="Name of Shop" required>
-        <br />
-        <label for="min costumer number" id="min">min number of costumers</label> 
-        <input type="number" id="min" placeholder="Min is lower! min="0" max="100" required>
-        <br />
-        <label for="max">max number of costumers</label>
-        <input type="number" id="max" placeholder="max is higher" min="0" max="1000" required>
-         <br />
-         <label for="avgCoockei" >expected average coockies sold</label>
-         <input type="float" id="avgCoockei" placeholder="Enter expected average coockie sold per hour" required> 
-         <br />
-         <input type="submit" />      
-    </fieldset>
-    </form>    
-    <div id="shops">
-       
+<link rel="stylesheet" href="CSS/reset.css">
+<!-- <link rel="stylesheet" href="CSS/style.css"> -->
 
-    </div>
-    
-    
+<body>
+    <header> Pat's coockie Shop</header>
+    <form id=newShopForm>
+        <fieldset>
+            <legend> New Shop Info</legend>
+            <label for="name"> name of the shop</label>
+            <input type="text" id="name" placeholder="Name of Shop" required>
+            <br />
+            <label for="min costumer number" id="min">min number of costumers</label>
+            <input type="number" id="min" placeholder="Min is lower!" min= 1 max=1000 required>
+            <br />
+            <label for="max">max number of costumers</label>
+            <input type="number" id="max" placeholder="max is higher" min = 1 max= 1000 required>
+            <br />
+            <label for="avgCoockei">expected average coockies sold</label>
+            <input type="float" id="avgCoockei" placeholder="Enter expected average coockie sold per hour" required>
+            <br />
+            <input id="submit" type="submit" />
+        </fieldset>
+    </form>
+    <div id="shops">  </div>
+<img src="img/salmon.png" alt="the bueatiful creature">
+
     <script src="js/app.js"></script>
 </body>
+
 </html>

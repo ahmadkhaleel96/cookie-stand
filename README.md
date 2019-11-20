@@ -3,6 +3,7 @@ this project is simple project used to put random estimates of a coocki shop loc
 
 As for lab 7 we turned the un ordered lists to tables using JavaScript (the hardway) but it was good, we refined the code turning the literal code in constructor functions and created the table using JavaScript to veiw the data in a grid format
 
+the index.html file is modified and with the sites locations shown as unordered list and extra information is added to the index as plain text nothing is speciel... i forgot myself and did some CSS which is commented out from the HTML. 
 ## a Ahmad Khaleel Almahanseh project
 with the help ofthe amazing instructor and TAs.
 
