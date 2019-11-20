@@ -3,7 +3,11 @@ var allShops = [];
 var containor = document.getElementById('shops');
 var tableEl = document.createElement('table');
 containor.appendChild(tableEl);
+<<<<<<< HEAD
 var form = document.getElementById('newShopForm')
+=======
+
+>>>>>>> lab7
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
 function Shop(site, min, max, avgCoocki) {
@@ -17,7 +21,21 @@ function Shop(site, min, max, avgCoocki) {
     this.cookiePerHour();
 };
 
+<<<<<<< HEAD
 Shop.prototype.render = function () {
+=======
+Shop.prototype.cookiePerHour = function () {
+    for (var i = 0; i < hours.length; i++) {
+        random = (Math.random() *( this.max - this.min + 1) + this.min) * this.avgCoocki;
+        this.salesPerHour.push(Math.ceil(random));
+        this.total += this.salesPerHour[i];
+        
+    }
+};
+ 
+Shop.prototype.render = function () {
+
+>>>>>>> lab7
     var tRowEl = document.createElement('tr');
     tableEl.appendChild(tRowEl);
     var tDataEl = document.createElement('td');
