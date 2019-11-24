@@ -9,6 +9,10 @@ table {
     align-self: center;
     
 }
+nav{
+    text-decoration: none;
+    font-size: 15px;
+}
 body {
     background: rgb(240, 163, 154);
 }
